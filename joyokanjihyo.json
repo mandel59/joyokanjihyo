@@ -2292,15 +2292,25 @@
   },
   {
     "page": 17,
+    "subject": "鉛",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "なまり",
+    "examples": [
+      "鉛",
+      "鉛色"
+    ],
+    "note": ""
+  },
+  {
+    "page": 17,
     "subject": "塩",
     "kangxi": [
       "鹽"
     ],
     "acceptable": null,
-    "reading": "なまり\nエン",
+    "reading": "エン",
     "examples": [
-      "鉛",
-      "鉛色",
       "塩分",
       "塩酸",
       "食塩"
@@ -2489,6 +2499,15 @@
   },
   {
     "page": 17,
+    "subject": "王",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": null,
+    "examples": [],
+    "note": "「キンノウ」。"
+  },
+  {
+    "page": 17,
     "subject": "凹",
     "kangxi": null,
     "acceptable": null,
@@ -2498,7 +2517,7 @@
       "凹面鏡",
       "凹レンズ"
     ],
-    "note": "「キンノウ」。凸凹（でこぼこ）"
+    "note": "凸凹（でこぼこ）"
   },
   {
     "page": 17,
@@ -16069,12 +16088,22 @@
   },
   {
     "page": 54,
+    "subject": "耕",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "たがやす",
+    "examples": [
+      "耕す"
+    ],
+    "note": ""
+  },
+  {
+    "page": 54,
     "subject": "航",
     "kangxi": null,
     "acceptable": null,
-    "reading": "たがやす\nコウ",
+    "reading": "コウ",
     "examples": [
-      "耕す",
       "航海",
       "航空",
       "就航"
@@ -25813,12 +25842,22 @@
   },
   {
     "page": 81,
+    "subject": "照",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "てれる",
+    "examples": [
+      "照れる"
+    ],
+    "note": ""
+  },
+  {
+    "page": 81,
     "subject": "詳",
     "kangxi": null,
     "acceptable": null,
-    "reading": "てれる\nショウ",
+    "reading": "ショウ",
     "examples": [
-      "照れる",
       "詳細",
       "詳報",
       "未詳"
@@ -37154,7 +37193,16 @@
     "subject": "朕",
     "kangxi": null,
     "acceptable": null,
-    "reading": "チン\nチン",
+    "reading": "チン",
+    "examples": [],
+    "note": ""
+  },
+  {
+    "page": 111,
+    "subject": "陳",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "チン",
     "examples": [
       "陳列",
       "陳謝",
@@ -46129,13 +46177,23 @@
   },
   {
     "page": 136,
+    "subject": "憤",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "いきどおる",
+    "examples": [
+      "憤る",
+      "憤り"
+    ],
+    "note": ""
+  },
+  {
+    "page": 136,
     "subject": "奮",
     "kangxi": null,
     "acceptable": null,
-    "reading": "いきどおる\nフン",
+    "reading": "フン",
     "examples": [
-      "憤る",
-      "憤り",
       "奮起",
       "奮発",
       "興奮"
@@ -49999,13 +50057,23 @@
   },
   {
     "page": 147,
+    "subject": "冥",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "ミョウ",
+    "examples": [
+      "冥加",
+      "冥利"
+    ],
+    "note": ""
+  },
+  {
+    "page": 147,
     "subject": "盟",
     "kangxi": null,
     "acceptable": null,
-    "reading": "ミョウ\nメイ",
+    "reading": "メイ",
     "examples": [
-      "冥加",
-      "冥利",
       "加盟",
       "同盟",
       "連盟"
@@ -54709,13 +54777,25 @@
   },
   {
     "page": 160,
+    "subject": "朗",
+    "kangxi": [
+      "朗"
+    ],
+    "acceptable": null,
+    "reading": "ほがらか",
+    "examples": [
+      "朗らかだ",
+      "朗らかさ"
+    ],
+    "note": ""
+  },
+  {
+    "page": 160,
     "subject": "浪",
     "kangxi": null,
     "acceptable": null,
-    "reading": "ほがらか\nロウ",
+    "reading": "ロウ",
     "examples": [
-      "朗らかだ",
-      "朗らかさ",
       "浪費",
       "波浪",
       "放浪"

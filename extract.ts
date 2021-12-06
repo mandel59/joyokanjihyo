@@ -49,6 +49,7 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
   for await (const page of pagesInRange(11, 161, pdf)) {
     const textContent = await page.getTextContent()
     const textContentItems = textContent.items as TextItem[]
+    let prevX = 0
     for (const text of textContentItems) {
       if (text.str === "本　　　表") {
         continue
@@ -78,6 +79,10 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
         h: text.height,
         str: text.str.trim(),
       }
+      if (prevX >= 170 && item.x < 170) {
+        nextEntry()
+      }
+      prevX = item.x
       currentLine.push(item)
       if (text.hasEOL) {
         nextEntry()
@@ -119,6 +124,10 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
       let example: string
       [reading, example] = reading.split("\t")
       examples.unshift(example.trim())
+    }
+
+    if (subject === "王" || subject === "凹") {
+      console.log(subjectField, line)
     }
 
     const note = fourthField.map(span => span.str).join("")
