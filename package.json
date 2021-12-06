@@ -1,0 +1,25 @@
+{
+  "name": "@mandel59/joyokanjihyo",
+  "version": "1.0.0",
+  "description": "Jōyō kanji hyo (List of regular-use Han characters in Japan)",
+  "main": "joyokanjihyo.json",
+  "typings": "joyokanjihyo.d.ts",
+  "files": [
+    "README.md",
+    "joyokanjihyo.json",
+    "joyokanjihyo.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts-node extract.ts"
+  },
+  "keywords": [],
+  "author": "Ryusei Yamaguchi",
+  "license": "MIT-0",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "pdfjs-dist": "^2.10.377",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
