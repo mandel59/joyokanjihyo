@@ -134,9 +134,6 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
     const note = fourthField.map(span => span.str).join("")
     prevSubjectField = subjectField
 
-    if (subject === "（" || subject === "餅") {
-      console.error(line)
-    }
     yield {
       page,
       subject,
