@@ -126,10 +126,6 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
       examples.unshift(example.trim())
     }
 
-    if (subject === "王" || subject === "凹") {
-      console.log(subjectField, line)
-    }
-
     const note = fourthField.map(span => span.str).join("")
     prevSubjectField = subjectField
     yield {
