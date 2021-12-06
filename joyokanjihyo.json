@@ -24790,7 +24790,16 @@
     "subject": "升",
     "kangxi": null,
     "acceptable": null,
-    "reading": "ショウ\nます",
+    "reading": "ショウ",
+    "examples": [],
+    "note": ""
+  },
+  {
+    "page": 78,
+    "subject": "升",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "ます",
     "examples": [
       "升",
       "升目"

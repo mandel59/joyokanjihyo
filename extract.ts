@@ -91,6 +91,9 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
       if (item.column < 2 && item.column < prevColumn) {
         nextEntry()
       }
+      if (item.column === 1 && prevColumn === 1) {
+        nextEntry()
+      }
       if (item.column === 1 && item.str.includes("\t")) {
         const [reading, examples] = item.str.split("\t")
         // p. 17 汚らわしい
