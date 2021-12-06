@@ -1,6 +1,6 @@
 {
   "name": "@mandel59/joyokanjihyo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jōyō kanji hyo (List of regular-use Han characters in Japan)",
   "main": "joyokanjihyo.json",
   "typings": "joyokanjihyo.d.ts",
@@ -15,6 +15,7 @@
   },
   "keywords": [],
   "author": "Ryusei Yamaguchi",
+  "repository": "github:mandel59/joyokanjihyo",
   "license": "MIT-0",
   "devDependencies": {
     "@types/node": "^16.11.11",
