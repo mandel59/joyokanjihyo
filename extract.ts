@@ -114,6 +114,11 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
       // p. 139 弁
       subject = "弁"
       kangxi = ["辨", "瓣", "辯"]
+    } else if (subjectField === "餅［餅］" || subjectField === "（餠）\t もち") {
+      // p. 138 餅
+      subject = "餅"
+      kangxi = ["餠"]
+      acceptable = "餅"
     } else if (subjectField === "瓣辯便") {
       // p. 139 便
       subject = "便"
@@ -128,6 +133,10 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
 
     const note = fourthField.map(span => span.str).join("")
     prevSubjectField = subjectField
+
+    if (subject === "（" || subject === "餅") {
+      console.error(line)
+    }
     yield {
       page,
       subject,

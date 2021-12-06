@@ -46729,7 +46729,9 @@
   {
     "page": 138,
     "subject": "餅",
-    "kangxi": null,
+    "kangxi": [
+      "餠"
+    ],
     "acceptable": "餅",
     "reading": "ヘイ",
     "examples": [
@@ -46739,11 +46741,11 @@
   },
   {
     "page": 138,
-    "subject": "（",
+    "subject": "餅",
     "kangxi": [
       "餠"
     ],
-    "acceptable": null,
+    "acceptable": "餅",
     "reading": null,
     "examples": [
       "餅屋",
