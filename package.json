@@ -1,7 +1,7 @@
 {
   "name": "@mandel59/joyokanjihyo",
   "version": "1.0.2",
-  "description": "Jōyō kanji hyo (List of regular-use Han characters in Japan)",
+  "description": "Jōyō kanji hyō (List of regular-use Han characters in Japan)",
   "main": "joyokanjihyo.json",
   "typings": "joyokanjihyo.d.ts",
   "files": [
