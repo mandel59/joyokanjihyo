@@ -12,7 +12,7 @@ interface JoyoKanjiRecord {
   /** An acceptable form of the subject */
   acceptable: string | null;
   /** A reading of the subject */
-  reading: string | null;
+  reading: string;
   /** Usage examples with the reading */
   examples: string[];
   /** A note on the subject */

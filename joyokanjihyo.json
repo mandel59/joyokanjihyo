@@ -1299,21 +1299,10 @@
     "examples": [
       "白羽の矢",
       "一羽（わ）",
-      ""
-    ],
-    "note": "「羽（は）」は，前に来る音によっ"
-  },
-  {
-    "page": 14,
-    "subject": "羽",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [
       "三羽（ば）",
       "六羽（ぱ）"
     ],
-    "note": "て「わ」，「ば」，「ぱ」になる。"
+    "note": "「羽（は）」は，前に来る音によって「わ」，「ば」，「ぱ」になる。"
   },
   {
     "page": 14,
@@ -1363,25 +1352,7 @@
       "雨戸",
       "雨具"
     ],
-    "note": "梅雨（つゆ）"
-  },
-  {
-    "page": 14,
-    "subject": "雨",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「春雨」，「小雨」，「霧雨」などは，"
-  },
-  {
-    "page": 14,
-    "subject": "雨",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「はるさめ」，「こさめ」，「きりさめ」。"
+    "note": "梅雨（つゆ）「春雨」，「小雨」，「霧雨」などは，「はるさめ」，「こさめ」，「きりさめ」。"
   },
   {
     "page": 14,
@@ -2495,16 +2466,7 @@
       "王子",
       "帝王"
     ],
-    "note": "「親王」，「勤王」などは，「シンノウ」，"
-  },
-  {
-    "page": 17,
-    "subject": "王",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「キンノウ」。"
+    "note": "「親王」，「勤王」などは，「シンノウ」，「キンノウ」。"
   },
   {
     "page": 17,
@@ -2543,18 +2505,7 @@
       "応用",
       "呼応"
     ],
-    "note": "「反応」，「順応」などは，「ハンノウ」，"
-  },
-  {
-    "page": 18,
-    "subject": "応",
-    "kangxi": [
-      "應"
-    ],
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「ジュンノウ」。"
+    "note": "「反応」，「順応」などは，「ハンノウ」，「ジュンノウ」。"
   },
   {
     "page": 18,
@@ -2803,16 +2754,7 @@
       "花屋",
       "楽屋"
     ],
-    "note": "母屋（おもや）部屋（へや）"
-  },
-  {
-    "page": 18,
-    "subject": "屋",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "⇔ 家"
+    "note": "母屋（おもや）部屋（へや）⇔ 家"
   },
   {
     "page": 18,
@@ -2849,16 +2791,7 @@
       "臆測",
       "臆病"
     ],
-    "note": "「臆説」，「臆測」は，"
-  },
-  {
-    "page": 18,
-    "subject": "臆",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「憶説」，「憶測」とも書く。"
+    "note": "「臆説」，「臆測」は，「憶説」，「憶測」とも書く。"
   },
   {
     "page": 18,
@@ -3554,16 +3487,7 @@
       "河口",
       "運河"
     ],
-    "note": "河岸（かし）"
-  },
-  {
-    "page": 20,
-    "subject": "河",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "河原（かわら）"
+    "note": "河岸（かし）河原（かわら）"
   },
   {
     "page": 20,
@@ -10850,20 +10774,9 @@
     "examples": [
       "極める",
       "極め付き",
-      ""
-    ],
-    "note": "⇔ 究める，窮める"
-  },
-  {
-    "page": 40,
-    "subject": "極",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [
       "極めて〔副〕"
     ],
-    "note": ""
+    "note": "⇔ 究める，窮める"
   },
   {
     "page": 40,
@@ -14329,16 +14242,7 @@
       "固い",
       "固さ"
     ],
-    "note": "固唾（かたず）"
-  },
-  {
-    "page": 50,
-    "subject": "固",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "⇔ 堅い，硬い"
+    "note": "固唾（かたず）⇔ 堅い，硬い"
   },
   {
     "page": 50,
@@ -16410,7 +16314,8 @@
     "acceptable": null,
     "reading": "あわただしい",
     "examples": [
-      "慌ただしい，慌ただしさ，",
+      "慌ただしい",
+      "慌ただしさ",
       "慌ただしげだ"
     ],
     "note": ""
@@ -17189,7 +17094,6 @@
       "今日",
       "今朝",
       "今年",
-      "",
       "昨今"
     ],
     "note": "今日（きょう）今朝（けさ）"
@@ -17387,25 +17291,7 @@
       "混み合う",
       "人混み"
     ],
-    "note": "⇔ 込む"
-  },
-  {
-    "page": 58,
-    "subject": "混",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「混み合う」，「人混み」は，「込み"
-  },
-  {
-    "page": 58,
-    "subject": "混",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "合う」，「人込み」とも書く。"
+    "note": "⇔ 込む「混み合う」，「人混み」は，「込み合う」，「人込み」とも書く。"
   },
   {
     "page": 58,
@@ -19389,25 +19275,7 @@
       "武士",
       "紳士"
     ],
-    "note": "海士（あま）"
-  },
-  {
-    "page": 63,
-    "subject": "士",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "居士（こじ）"
-  },
-  {
-    "page": 63,
-    "subject": "士",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "博士（はかせ）"
+    "note": "海士（あま）居士（こじ）博士（はかせ）"
   },
   {
     "page": 63,
@@ -19617,7 +19485,6 @@
     "examples": [
       "四人",
       "四日（よっか）",
-      "",
       "四月目"
     ],
     "note": ""
@@ -22171,15 +22038,6 @@
       "手綱",
       "手繰る"
     ],
-    "note": ""
-  },
-  {
-    "page": 71,
-    "subject": "手",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
     "note": "手伝（てつだ）う"
   },
   {
@@ -23394,25 +23252,7 @@
       "十字架",
       "十文字"
     ],
-    "note": "十重二十重（とえはたえ）"
-  },
-  {
-    "page": 74,
-    "subject": "十",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二十・二十歳（はたち）"
-  },
-  {
-    "page": 74,
-    "subject": "十",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二十日（はつか）"
+    "note": "十重二十重（とえはたえ）二十・二十歳（はたち）二十日（はつか）"
   },
   {
     "page": 74,
@@ -26970,7 +26810,8 @@
     "acceptable": null,
     "reading": "はずかしめる",
     "examples": [
-      "辱める，辱め"
+      "辱める",
+      "辱め"
     ],
     "note": ""
   },
@@ -27274,17 +27115,6 @@
       "神様",
       "貧乏神"
     ],
-    "note": ""
-  },
-  {
-    "page": 85,
-    "subject": "神",
-    "kangxi": [
-      "神"
-    ],
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
     "note": "神奈川（かながわ）県"
   },
   {
@@ -27455,33 +27285,9 @@
       "真南",
       "真新しい",
       "真っ先",
-      ""
-    ],
-    "note": "真面目（まじめ）"
-  },
-  {
-    "page": 85,
-    "subject": "真",
-    "kangxi": [
-      "眞"
-    ],
-    "acceptable": null,
-    "reading": null,
-    "examples": [
       "真ん中"
     ],
-    "note": "真っ赤（まっか）"
-  },
-  {
-    "page": 85,
-    "subject": "真",
-    "kangxi": [
-      "眞"
-    ],
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "真っ青（まっさお）"
+    "note": "真面目（まじめ）真っ赤（まっか）真っ青（まっさお）"
   },
   {
     "page": 85,
@@ -27930,52 +27736,7 @@
       "人手",
       "旅人"
     ],
-    "note": ""
-  },
-  {
-    "page": 86,
-    "subject": "人",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "仲人（なこうど）"
-  },
-  {
-    "page": 86,
-    "subject": "人",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "若人（わこうど）"
-  },
-  {
-    "page": 86,
-    "subject": "人",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "大人（おとな）"
-  },
-  {
-    "page": 86,
-    "subject": "人",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "一人（ひとり）"
-  },
-  {
-    "page": 86,
-    "subject": "人",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二人（ふたり）"
+    "note": "仲人（なこうど）若人（わこうど）大人（おとな）一人（ひとり）二人（ふたり）"
   },
   {
     "page": 87,
@@ -30798,11 +30559,21 @@
     "subject": "占",
     "kangxi": null,
     "acceptable": null,
-    "reading": "セン\nしめる",
+    "reading": "セン",
     "examples": [
       "占拠",
       "占星術",
-      "独占",
+      "独占"
+    ],
+    "note": ""
+  },
+  {
+    "page": 94,
+    "subject": "占",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "しめる",
+    "examples": [
       "占める",
       "買い占め"
     ],
@@ -31297,11 +31068,23 @@
       "潛"
     ],
     "acceptable": null,
-    "reading": "セン\nひそむ",
+    "reading": "セン",
     "examples": [
       "潜水",
       "潜在的",
-      "沈潜",
+      "沈潜"
+    ],
+    "note": ""
+  },
+  {
+    "page": 95,
+    "subject": "潜",
+    "kangxi": [
+      "潛"
+    ],
+    "acceptable": null,
+    "reading": "ひそむ",
+    "examples": [
       "潜む"
     ],
     "note": ""
@@ -33677,16 +33460,7 @@
       "謙遜",
       "不遜"
     ],
-    "note": "［遜］＝許容字体，"
-  },
-  {
-    "page": 102,
-    "subject": "遜",
-    "kangxi": null,
-    "acceptable": "遜",
-    "reading": null,
-    "examples": [],
-    "note": "＊［（付）第２の１参照］"
+    "note": "［遜］＝許容字体，＊［（付）第２の１参照］"
   },
   {
     "page": 102,
@@ -36317,7 +36091,8 @@
     "acceptable": null,
     "reading": "いちじるしい",
     "examples": [
-      "著しい，著しさ"
+      "著しい",
+      "著しさ"
     ],
     "note": ""
   },
@@ -38972,11 +38747,21 @@
     "subject": "怒",
     "kangxi": null,
     "acceptable": null,
-    "reading": "いかる\nおこる",
+    "reading": "いかる",
     "examples": [
       "怒る",
       "怒り",
-      "怒り狂う",
+      "怒り狂う"
+    ],
+    "note": ""
+  },
+  {
+    "page": 116,
+    "subject": "怒",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "おこる",
+    "examples": [
       "怒る"
     ],
     "note": ""
@@ -40816,16 +40601,7 @@
     "examples": [
       "謎"
     ],
-    "note": "［謎］＝許容字体，"
-  },
-  {
-    "page": 121,
-    "subject": "謎",
-    "kangxi": null,
-    "acceptable": "謎",
-    "reading": null,
-    "examples": [],
-    "note": "＊［（付）第２の１参照］"
+    "note": "［謎］＝許容字体，＊［（付）第２の１参照］"
   },
   {
     "page": 121,
@@ -40986,52 +40762,7 @@
     "examples": [
       "二つ"
     ],
-    "note": ""
-  },
-  {
-    "page": 122,
-    "subject": "二",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "十重二十重（とえはたえ）二十・二十歳（はたち）"
-  },
-  {
-    "page": 122,
-    "subject": "二",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二十日（はつか）"
-  },
-  {
-    "page": 122,
-    "subject": "二",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二人（ふたり）"
-  },
-  {
-    "page": 122,
-    "subject": "二",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二日（ふつか）"
-  },
-  {
-    "page": 122,
-    "subject": "二",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "⇔ 双"
+    "note": "十重二十重（とえはたえ）二十・二十歳（はたち）二十日（はつか）二人（ふたり）二日（ふつか）⇔ 双"
   },
   {
     "page": 122,
@@ -41155,61 +40886,7 @@
       "三日",
       "十日"
     ],
-    "note": ""
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "明日（あす）昨日（きのう）"
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "今日（きょう）"
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "一日（ついたち）"
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二十日（はつか）"
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "日和（ひより）"
-  },
-  {
-    "page": 122,
-    "subject": "日",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "二日（ふつか）"
+    "note": "明日（あす）昨日（きのう）今日（きょう）一日（ついたち）二十日（はつか）日和（ひより）二日（ふつか）"
   },
   {
     "page": 122,
@@ -41781,7 +41458,6 @@
       "把握",
       "把持",
       "一把（ワ）",
-      "",
       "三把（バ）",
       "十把（パ）"
     ],
@@ -42455,11 +42131,21 @@
     "subject": "拍",
     "kangxi": null,
     "acceptable": null,
-    "reading": "ハク\nヒョウ",
+    "reading": "ハク",
     "examples": [
       "拍手",
       "拍車",
-      "一拍",
+      "一拍"
+    ],
+    "note": ""
+  },
+  {
+    "page": 126,
+    "subject": "拍",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "ヒョウ",
+    "examples": [
       "拍子"
     ],
     "note": ""
@@ -46746,7 +46432,7 @@
       "餠"
     ],
     "acceptable": "餅",
-    "reading": null,
+    "reading": "もち",
     "examples": [
       "餅屋",
       "尻餅"
@@ -47416,25 +47102,7 @@
       "母",
       "母親"
     ],
-    "note": "叔母・伯母（おば）"
-  },
-  {
-    "page": 139,
-    "subject": "母",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "母屋・母家（おもや）"
-  },
-  {
-    "page": 139,
-    "subject": "母",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "母（かあ）さん"
+    "note": "叔母・伯母（おば）母屋・母家（おもや）母（かあ）さん"
   },
   {
     "page": 140,
@@ -48066,9 +47734,19 @@
     "subject": "蜂",
     "kangxi": null,
     "acceptable": null,
-    "reading": "ホウ\nはち",
+    "reading": "ホウ",
     "examples": [
-      "蜂起",
+      "蜂起"
+    ],
+    "note": ""
+  },
+  {
+    "page": 141,
+    "subject": "蜂",
+    "kangxi": null,
+    "acceptable": null,
+    "reading": "はち",
+    "examples": [
       "蜜蜂"
     ],
     "note": ""
@@ -48224,7 +47902,6 @@
       "亡い",
       "亡き人",
       "亡くす",
-      "",
       "亡くなる"
     ],
     "note": "多く文語の「亡き」で使う。⇔ 無い"
@@ -48724,16 +48401,7 @@
       "頰",
       "頰張る"
     ],
-    "note": "＊［（付）第２の３参照］"
-  },
-  {
-    "page": 143,
-    "subject": "頰",
-    "kangxi": null,
-    "acceptable": null,
-    "reading": null,
-    "examples": [],
-    "note": "「頰」は，「ほほ」とも。"
+    "note": "＊［（付）第２の３参照］「頰」は，「ほほ」とも。"
   },
   {
     "page": 143,

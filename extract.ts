@@ -33,6 +33,14 @@ interface TextSpan {
   y: number
   h: number
   str: string
+  column: number
+}
+
+function getColumn(x: number) {
+  if (x < 170) return 0
+  if (170 <= x && x < 240) return 1
+  if (240 <= x && x < 395) return 2
+  return 3
 }
 
 async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
@@ -49,7 +57,7 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
   for await (const page of pagesInRange(11, 161, pdf)) {
     const textContent = await page.getTextContent()
     const textContentItems = textContent.items as TextItem[]
-    let prevX = 0
+    let prevColumn = 0
     for (const text of textContentItems) {
       if (text.str === "本　　　表") {
         continue
@@ -78,15 +86,22 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
         y: text.transform[5],
         h: text.height,
         str: text.str.trim(),
+        column: getColumn(text.transform[4])
       }
-      if (prevX >= 170 && item.x < 170) {
+      if (item.column < 2 && item.column < prevColumn) {
         nextEntry()
       }
-      prevX = item.x
+      if (item.column === 1 && item.str.includes("\t")) {
+        const [reading, examples] = item.str.split("\t")
+        // p. 17 汚らわしい
+        item.str = reading.trim()
+        currentLine.push(item)
+        currentLine.push({ ...item, x: 240, str: examples.trim(), column: 2 })
+        prevColumn = 2
+        continue
+      }
+      prevColumn = item.column
       currentLine.push(item)
-      if (text.hasEOL) {
-        nextEntry()
-      }
     }
   }
   nextEntry()
@@ -96,10 +111,10 @@ async function extractJoyoKanjiHyoTextData(pdf: PDFDocumentProxy) {
 function* formatJoyoKanji(lines: TextSpan[][]) {
   let prevSubjectField = ""
   for (const line of lines) {
-    const firstField = line.filter(({ x }) => x < 170)
-    const secondField = line.filter(({ x }) => 170 <= x && x < 240)
-    const thirdField = line.filter(({ x }) => 240 <= x && x < 395)
-    const fourthField = line.filter(({ x }) => 395 <= x)
+    const firstField = line.filter(({ column }) => column === 0)
+    const secondField = line.filter(({ column }) => column === 1)
+    const thirdField = line.filter(({ column }) => column === 2)
+    const fourthField = line.filter(({ column }) => column === 3)
 
     const page = line[0].page
     const subjectField = firstField.map(span => span.str).join("") || prevSubjectField
@@ -108,7 +123,7 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
     let kangxi: string[] | null = subjectField.match(/（.）/gu)?.map(c => c.replace(/[（）]/gu, "")) || null
     let acceptable: string | null = subjectField.match(/［.］/gu)?.map(c => c.replace(/[［］]/gu, ""))?.[0] || null
     let reading = secondField.map(span => span.str).join("\n") || null
-    const examples = thirdField.flatMap(span => span.str.split("，"))
+    const examples = thirdField.flatMap(span => span.str.split("，").filter(s => s !== ""))
 
     if (subjectField === "弁\t\t\t辨") {
       // p. 139 弁
@@ -119,16 +134,12 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
       subject = "餅"
       kangxi = ["餠"]
       acceptable = "餅"
+      if (subjectField === "（餠）\t もち") {
+        reading = "もち"
+      }
     } else if (subjectField === "瓣辯便") {
       // p. 139 便
       subject = "便"
-    }
-
-    if (reading?.includes("\t")) {
-      // p. 17 汚らわしい
-      let example: string
-      [reading, example] = reading.split("\t")
-      examples.unshift(example.trim())
     }
 
     const note = fourthField.map(span => span.str).join("")
