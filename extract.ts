@@ -143,6 +143,9 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
     } else if (subjectField === "瓣辯便") {
       // p. 139 便
       subject = "便"
+    } else if (subject === "亀") {
+      // p. 33 亀
+      kangxi = ["龜"]
     }
 
     const note = fourthField.map(span => span.str).join("")
@@ -163,8 +166,10 @@ function* formatJoyoKanji(lines: TextSpan[][]) {
 async function main() {
   const file = await fs.readFile(path.join(__dirname, "joyokanjihyo_20101130.pdf"))
   const pdf = await pdfjs.getDocument(file).promise
-  const joyoKanjiHyoTextData = Array.from(formatJoyoKanji(await extractJoyoKanjiHyoTextData(pdf)))
-  await fs.writeFile(path.join(__dirname, "joyokanjihyo.json"), JSON.stringify(joyoKanjiHyoTextData, null, 2), "utf-8")
+  const textData = await extractJoyoKanjiHyoTextData(pdf)
+  await fs.writeFile(path.join(__dirname, "joyokanjihyo.raw.json"), JSON.stringify(textData, null, 2), "utf-8")
+  const joyoKanjiHyo = Array.from(formatJoyoKanji(textData))
+  await fs.writeFile(path.join(__dirname, "joyokanjihyo.json"), JSON.stringify(joyoKanjiHyo, null, 2), "utf-8")
 }
 
 main().catch(error => {

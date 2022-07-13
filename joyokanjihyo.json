@@ -7973,7 +7973,9 @@
   {
     "page": 33,
     "subject": "亀",
-    "kangxi": null,
+    "kangxi": [
+      "龜"
+    ],
     "acceptable": null,
     "reading": "キ",
     "examples": [
@@ -7984,7 +7986,9 @@
   {
     "page": 33,
     "subject": "亀",
-    "kangxi": null,
+    "kangxi": [
+      "龜"
+    ],
     "acceptable": null,
     "reading": "かめ",
     "examples": [
